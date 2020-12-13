@@ -3,7 +3,8 @@ Save a PCM audio stream into silence-delimited sub-streams as FLAC.
 
 Currently `ripcut` is hard-coded to work with a specific PCM format.
 Most parameters can be adjusted by modifying the `config` variable in `main.go` and running `go build`.
-Support for sample size other than signed 16-bit requires more work.
+
+Support for custom sample size / number of channels requires more work.
 
 ### Usage
 
